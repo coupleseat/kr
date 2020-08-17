@@ -1,0 +1,32 @@
+﻿@charset "utf-8";
+
+body, ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "맑은 고딕", "Malgun Gothic", "나눔고딕", NanumGothic, Verdana;
+    font-size: 1em;
+    color: #555;
+}
+
+#listBox {
+    width: 25em;
+    margin: 3em;
+    margin: 10px auto;
+}
+
+#listBox li {
+    margin: 10px 10px;
+    padding: 1em 1em 2em 1em;
+    background: #cdf8ff url("../images/corner.gif") no-repeat right bottom;
+}
+
+#listBox .odd {
+    background: #ffffbc url("../images/corner.gif") no-repeat right bottom;
+}
