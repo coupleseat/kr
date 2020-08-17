@@ -24,6 +24,7 @@ body {
 #listBox li {
     margin: 10px 10px;
     padding: 1em 1em 2em 1em;
+    border-radius: 20px 20px 20px 20px;
     background: #cdf8ff url("../images/corner.gif") no-repeat right bottom;
 }
 

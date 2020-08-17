@@ -93,7 +93,7 @@ img {
 }
 
 #main_lnb > ul > li { 
-    float: left; 
+    float: left;
 }
 
 #main_lnb > ul > li > a {
@@ -223,7 +223,7 @@ input:nth-of-type(2):checked ~ section.buttons >  label:nth-of-type(2) {
 
 .description > strong {
     display: block;
-    width: 120px;
+    width: 150px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
