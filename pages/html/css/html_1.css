@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 body, ul {
     margin: 0px;
@@ -16,7 +16,7 @@ body {
 }
 
 #listBox {
-    width: 25em;
+    width: 940px;
     margin: 3em;
     margin: 10px auto;
 }
