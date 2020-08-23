@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>상속받을 수 없는 속성의 태그들</title>
+    <link rel="stylesheet" href="css/css_1.css">
+</head>
+
+<body>
+    <ul id="listBox">
+        <li>
+            <strong>상속받을 수 없는 속성의 태그들</strong>
+            <hr>
+            <p>부모로 부터 자식이 상속받을 수 있는 속성에 <mark>폰트</mark>가 있다.</p>            
+            <p>글자 색깔, 폰트 사이즈, 서체명, 줄간격, 두꺼운 정도...?</p>
+            <p>예외적으로는 a 태그는 색상만 상속받지 못한다.</p>
+            <p>h1 ~ h6 태그는 font-size 를 상속받지 못한다.</p>
+            <p><code>a { <mark>color: inherit;</mark> }</mark></code></p>
+            <p><code>h1 { <mark>font-size: inherit;</mark> }</code></p>
+            <p><code>h1 { font-size: <mark>100%;</mark> }</code></p> 
+            <p>100%; 는 inherit; 과 동일하다.</p>
+            <p><strong>폼 태그 추가</strong></p>
+            <p>폼 컨트롤 요소 모두 부모로 부터 폰트 속성을 상속받지 못한다.</p>
+            <p><code>input, select, textarea, button { font-family: inherit; font-size: inherit; color: inherit; }</code></p>
+        </li>
+        <li>
+            <strong>댓글</strong>
+            <!-- 라이브리 시티 설치 코드 -->
+            <div id="lv-container" data-id="city" data-uid="MTAyMC81MTM3OS8yNzg2MA==">
+                <script type="text/javascript">
+                    (function (d, s) {
+                        var j, e = d.getElementsByTagName(s)[0];
+
+                        if (typeof LivereTower === 'function') {
+                            return;
+                        }
+
+                        j = d.createElement(s);
+                        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                        j.async = true;
+
+                        e.parentNode.insertBefore(j, e);
+                    })(document, 'script');
+                </script>
+                <noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+            </div>
+            <!-- 시티 설치 코드 끝 -->
+        </li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>css 초기화</title>
+    <link rel="stylesheet" href="css/css_1.css">
+</head>
+
+<body>
+    <ul id="listBox">
+        <li>
+            <strong>css 초기화</strong>
+            <hr>
+            <p>
+<pre>
+    body, ul, ol, figure, p, th, td, h1, h2, h3, h4, h5, h6, form, fieldset {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    /* 
+        collapse 우선순위 
+        두께 : 두꺼울 수록 우선순위가 높다
+        스타일 : solid > dashed > dotted
+        태그 : th > td > tr > thead, tbody, tfoot
+    
+        table 디자인 특징
+        caption 가운데 정렬
+        th 가운데 정렬, bold
+        th, td : 셀의 높이가 높아질 경우 수직 가운데 위치함
+    */
+    table {
+        border-spacing: 0;
+        border-collapse: collapse;
+    }
+    
+    
+    ul, ol {
+        list-style: none;
+    }
+    
+    
+    dl, dd {
+        margin: 0px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    /*
+        순서 중요하다 (l.. > v.. > h.. > a..)
+        a:link 링크가 걸려 있는 경우
+        a:visited a를 클릭해서 방문한 경우
+        a:hover 마우스를 오버하는 경우
+        a:active a를 누르고 있는 경우
+    */
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+        /* inherit == 100%, (부모와 똑같아져라) */
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    header,
+    section,
+    article,
+    footer {
+        /* HTML5 에 추가된 의미를 가지는 태그는 별도로 block 타입이라 선언함 */
+        display: block;
+    }
+    
+    input[type="submit"],
+    input[type="reset"] {
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+</pre>
+            </p>
+        </li>        
+        <li>
+            <strong>댓글</strong>
+            <!-- 라이브리 시티 설치 코드 -->
+            <div id="lv-container" data-id="city" data-uid="MTAyMC81MTM3OS8yNzg2MA==">
+                <script type="text/javascript">
+                    (function (d, s) {
+                        var j, e = d.getElementsByTagName(s)[0];
+
+                        if (typeof LivereTower === 'function') {
+                            return;
+                        }
+
+                        j = d.createElement(s);
+                        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                        j.async = true;
+
+                        e.parentNode.insertBefore(j, e);
+                    })(document, 'script');
+                </script>
+                <noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+            </div>
+            <!-- 시티 설치 코드 끝 -->
+        </li>
+    </ul>
+</body>
+
+</html>

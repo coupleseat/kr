@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>border, background 축약형</title>
+    <link rel="stylesheet" href="css/css_1.css">
+</head>
+
+<body>
+    <ul id="listBox">
+        <li>
+            <strong>border, background 축약형</strong>
+            <hr>
+            <strong>border</strong>
+            <p>border-width: 1px; 두께</p>
+            <p>border-style: solid, dashed, dotted; 모양, 스타일</p>
+            <p>border-color: yellow; 색상</p>
+            <code>.float_background { <mark>border: 1px solid yello;</mark> }</code>
+            <p><strong>background</strong></p>            
+            <p>background-color: 배경색;</p>
+            <p>background-image: url("배경경로명");</p>
+            <p>background-repeat: repeat(기본값), no-repeat, repeat-x, repeat-y;</p>
+            <p>background-position: left(가로 기본값) top(세로 기본값);</p>
+            <p>수직방향 : top, bottom, center</p>
+            <code>#floatBackground a:focus { <mark>background: yellow url("../images/tab.gif") no-repeat center bottom;</mark> }</code>
+        </li>        
+        <li>
+            <strong>댓글</strong>
+            <!-- 라이브리 시티 설치 코드 -->
+            <div id="lv-container" data-id="city" data-uid="MTAyMC81MTM3OS8yNzg2MA==">
+                <script type="text/javascript">
+                    (function (d, s) {
+                        var j, e = d.getElementsByTagName(s)[0];
+
+                        if (typeof LivereTower === 'function') {
+                            return;
+                        }
+
+                        j = d.createElement(s);
+                        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                        j.async = true;
+
+                        e.parentNode.insertBefore(j, e);
+                    })(document, 'script');
+                </script>
+                <noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+            </div>
+            <!-- 시티 설치 코드 끝 -->
+        </li>
+    </ul>
+</body>
+
+</html>

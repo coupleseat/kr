@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body, ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "맑은 고딕", "Malgun Gothic", "나눔고딕", NanumGothic, Verdana;
+    font-size: 1em;
+    color: #555;
+}
+
+#listBox {
+    width: 25em;
+    margin: 3em;
+    margin: 10px auto;
+}
+
+#listBox li {
+    margin: 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: #cdf8ff;
+    border-radius: 20px 20px 20px 20px;
+}
+
+/* #listBox .odd {
+    background-color: #ffffbc;
+} */
+
+#listBox li:nth-child(odd) {
+    background-color: #ffffbc;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>ID, CLASS 네이밍</title>
+    <link rel="stylesheet" href="css/html_1.css">
+</head>
+
+<body>
+    <ul id="listBox">
+        <li>
+            <strong>ID, CLASS 네이밍</strong>
+            <hr>
+            <code>
+                &lt;div id="<mark>floatBorder</mark>">&lt;/div><br>
+                &lt;div class="<mark>float_border</mark>">&lt;/div>
+            </code>
+            <p>
+                id, class 네이밍은 Naver 네이밍 쓰는 방식 참고하였고,
+                <br>Daum 에서는 id 를 float_border 로 사용하고 class 를 floatBorder 로 사용한다.
+            </p>
+        </li>        
+        <li>
+            <strong>댓글</strong>
+            <!-- 라이브리 시티 설치 코드 -->
+            <div id="lv-container" data-id="city" data-uid="MTAyMC81MTM3OS8yNzg2MA==">
+                <script type="text/javascript">
+                    (function (d, s) {
+                        var j, e = d.getElementsByTagName(s)[0];
+
+                        if (typeof LivereTower === 'function') {
+                            return;
+                        }
+
+                        j = d.createElement(s);
+                        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                        j.async = true;
+
+                        e.parentNode.insertBefore(j, e);
+                    })(document, 'script');
+                </script>
+                <noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+            </div>
+            <!-- 시티 설치 코드 끝 -->
+        </li>
+    </ul>
+</body>
+
+</html>
