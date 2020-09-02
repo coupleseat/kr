@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>layout_04.html</title>
+    <style>
+        header,
+        nav,
+        aside,
+        section,
+        footer {
+            display: block;
+        }
+
+        body {
+            background-color: #ffe0b2;
+        }
+
+        #wrap {
+            width: 1000px;
+            height: 900px;
+            margin: 0 auto;
+            font-size: 30px;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .header {
+            width: 1000px;
+            height: 100px;
+            line-height: 100px;
+            background: #ef6c00;
+        }
+
+        .nav {
+            width: 1000px;
+            height: 100px;
+            line-height: 100px;
+            background: #f57c00;
+        }
+
+        .side_left {
+            float: left;
+            width: 300px;
+            height: 600px;
+            line-height: 600px;
+            background: #fb8c00;
+        }
+
+        .content_1 {
+            float: left;
+            width: 700px;
+            height: 300px;
+            line-height: 300px;
+            background: #ff9800;
+        }
+
+        .content_2 {
+            float: left;
+            width: 700px;
+            height: 300px;
+            line-height: 300px;
+            background: #ffa726;
+        }
+
+        .footer {
+            clear: both;
+            width: 1000px;
+            height: 100px;
+            line-height: 100px;
+            background: #ffb74d;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <header class="header">header</header>
+        <nav class="nav">nav</nav>
+        <aside class="side_left">side_left</aside>
+        <section class="content_1">content_1</section>
+        <section class="content_2">content_2</section>
+        <footer class="footer">footer</footer>
+    </div>
+</body>
+
+</html>

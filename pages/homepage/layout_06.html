@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>layout_06.html</title>
+    <style>
+        header,
+        nav,
+        aside,
+        section,
+        footer {
+            display: block;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrap {
+            text-align: center;
+            font-size: 30px;
+            color: #fff;
+        }
+
+        #header {
+            height: 140px;
+            line-height: 140px;
+            background: #ffe1e4;
+        }
+
+        #banner {
+            height: 450px;
+            line-height: 450px;
+            background: #fbd6e3;
+        }
+
+        #content {
+            height: 950px;
+            line-height: 950px;
+            background: #ead5ee;
+        }
+
+        #footer {
+            height: 220px;
+            line-height: 220px;
+            background: #d6ebfd;
+        }
+
+        .header_container,
+        .banner_container,
+        .content_container,
+        .footer_container {
+            width: 1100px;
+            margin: 0 auto;
+            height: inherit;
+            background: rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="header_container">header</div>
+        </header>
+        <aside id="banner">
+            <div class="banner_container">banner</div>
+        </aside>
+        <section id="content">
+            <div class="content_container">content</div>
+        </section>
+        <footer id="footer">
+            <div class="footer_container">footer</div>
+        </footer>
+    </div>
+</body>
+
+</html>

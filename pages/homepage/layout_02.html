@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>layout_02.html</title>
+    <style>
+        header, nav, aside, section, footer {
+            display: block;
+        }
+        
+        body {
+            background: #b3e5fc;
+        }
+
+        #wrap {
+            width: 1000px;
+            height: 900px;
+            margin: 0 auto;
+            font-size: 40px;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        #header {
+            width: 1000px;
+            height: 100px;
+            line-height: 100px;
+            background-color: #0277bd;
+        }
+
+        #nav {
+            width: 1000px;
+            height: 100px;
+            line-height: 100px;
+            background-color: #0288d1;
+        }
+
+        #sideLeft {
+            float: left;
+            width: 300px;
+            height: 600px;
+            line-height: 600px;
+            background-color: #039be5;
+        }
+
+        #contents {
+            float: left;
+            width: 400px;
+            height: 600px;
+            line-height: 600px;
+            background-color: #03a9f4;
+        }
+
+        #sideRight {
+            float: left;
+            width: 300px;
+            height: 600px;
+            line-height: 600px;
+            background-color: #29b6f6;
+        }
+
+        #footer {
+            clear: both;
+            width: 1000px;
+            height: 100px;
+            line-height: 100px;
+            background-color: #0288d1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">header</header>
+        <nav id="nav">nav</nav>
+        <aside id="sideLeft">sideLeft</aside>
+        <article id="contents">contents</article>
+        <aside id="sideRight">sideRight</aside>
+        <footer id="footer">footer</footer>
+    </div>
+</body>
+
+</html>
