@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.2em;
+}
+
+a {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+}
+
+header,
+section,
+footer {
+    display: block;
+}
+
+/* 헤더 */
+#main_header {
+    height: 45px;
+    background: rgba(124, 124, 124, 0.5);
+    text-align: center;
+    line-height: 45px;
+}
+
+#main_header>h1 {
+    color: white;
+    font-size: 1.8em;
+}
+
+/* 본문 */
+#section_header {
+    padding: 20px;
+}
+
+#section_header details a {
+    margin: 20px;
+}
+
+.section_article {
+    padding: 10px;
+    border-bottom: 1px dashed #000; 
+}
+
+.section_article:last-child {
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+
+/* 푸터 */
+#main_footer {
+    /* padding: 10px; */
+    border-top: 3px solid #000;
+    text-align: center;
+}

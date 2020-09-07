@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>간단한 웹 퍼블리셔</title>
+    <title>간단한 웹사이트</title>
     <!-- 구 버전의 인터넷 익스플로러에서 HTML5 태그를 인식하게 합니다. -->
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,16 +16,15 @@
 <body>
     <header id="main_header">
         <div id="title">
-            <h1>Simple Web Publisher</h1>
-            <h2>Couplesit</h2>
+            <h1>Couplesit Website</h1>
+            <!-- <h2>Couplesit</h2> -->
         </div>
-        <nav id="main_gnb">
+        <!-- <nav id="main_gnb">
             <ul>
                 <li><a href="pages/homepage/index.html" target="_blank" title="웹">Web</a></li>
                 <li><a href="pages/responsive/index.html" target="_blank" title="반응형">Responsive</a></li>
                 <li><a href="pages/megabox/index.html" target="_blank" title="메가박스">Responsive 2</a></li>
                 <li><a href="pages/mobile/index.html" target="_blank" title="모바일">Mobile</a></li>
-                <!-- <li><a href="#" title="동작안함">Hybrid or Game</a></li> -->
                 <li><a href="pages/bookmark/bookmark.html" target="_blank" title="즐겨찾기">Bookmark</a></li>
             </ul>
         </nav>
@@ -37,10 +36,53 @@
                 <li><a href="#" title="동작안함">jQuery</a></li>
                 <li><a href="#" title="동작안함">Web Accessibility</a></li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
     <div id="content">
         <section id="main_section">
+            <!-- 샘플 -->
+            <!-- <article class="main_article"></article> -->
+            
+            <article class="main_article">
+                자신을 믿자, 집중하자, 감사하자
+            </article>
+
+            <article class="main_article">
+                <details>
+                    <summary>웹 사이트 모작 및 학습</summary>
+                    <br><h1>웹 사이트 모작</h1>
+                    <p>
+                        <a href="pages/homepage/index.html" target="_blank" title="웹">Website</a><br>
+                        <a href="pages/responsive/index.html" target="_blank" title="반응형">반응형 1</a><br>
+                        <a href="pages/megabox/index.html" target="_blank" title="메가박스">반응형 2</a><br>
+                        <a href="pages/mobile/index.html" target="_blank" title="모바일">모바일</a><br>
+                    </p>
+                    
+                    <br><h1>학습</h1>
+                    <p>
+                        <a href="pages/html/contents.html" target="_blank" title="HTML5">HTML5</a><br>
+                        <a href="pages/css/contents.html" target="_blank" title="CSS3">CSS3</a><br>
+                    </p>
+
+                    <br><h1>즐겨찾기</h1>
+                    <p>
+                        <a href="pages/bookmark/bookmark.html" target="_blank" title="즐겨찾기">즐겨찾기</a>
+                    </p>
+                </details>
+            </article>
+
+            <article class="main_article">
+                <details>
+                    <summary>해보자!</summary>
+                    <br>
+                    <h1>해보자!</h1>
+                    <p>
+                        <a href="pages/bible/index.html" target="_blank" title="성경">모바일 성경(타이핑)</a><br>
+                        <!-- <a href="pages/bible/index.html" target="_blank" title="게임">게임</a><br> -->
+                    </p>                    
+                </details>
+            </article>
+
             <article class="main_article">
                 <details>
                     <summary>웹 퍼블리셔의 사전적 수행 직무</summary>
@@ -120,13 +162,7 @@
                     <p>-HTML, CSS, jQuery를 이용한 UI 구현</p>
                 </details>
 
-                <br><br>
-                <details>
-                    <summary></summary>
-                    <br>
-                    <h1></h1>
-                    <p></p>
-                </details>
+                
 
                 <br><br>
                 <details>
@@ -152,9 +188,8 @@
                     <p></p>
                 </details>
             </article>
-
-            <!-- <article class="main_article"></article> -->
         </section>
+
         <aside id="main_aside">
             <input id="first" type="radio" name="tab" checked="checked" />
             <input id="second" type="radio" name="tab" />
@@ -292,7 +327,7 @@
         </aside>
     </div>
     <footer id="main_footer">
-        <address>서울특별시 신월동</address>
+        <!-- <address>서울특별시 신월동</address> -->
         Copyright 2020 by couplesit Inc. All right reserved
     </footer>
 </body>
