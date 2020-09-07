@@ -12,8 +12,14 @@ body {
 }
 
 a {
-    color: green;
+    color: inherit;
+    display: block;
     text-decoration: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(124, 124, 124, 0.5);
+    color: #fff;
+    font-weight: 700;
 }
 
 header,
