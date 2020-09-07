@@ -31,7 +31,7 @@ footer {
     line-height: 45px;
 }
 
-#main_header>h1 {
+#main_header>a>h1 {
     color: white;
     font-size: 1.8em;
 }
