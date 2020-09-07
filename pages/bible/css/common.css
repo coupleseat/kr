@@ -15,6 +15,8 @@ a {
     color: inherit;
     display: inline-block;
     text-decoration: none;
+    height: 100%;
+    width: 100%;
 }
 
 header,
@@ -47,7 +49,7 @@ footer {
 
 .section_article {
     padding: 10px;
-    border-bottom: 1px dashed #000; 
+    border-bottom: 1px dashed #000;
 }
 
 .section_article:last-child {
@@ -60,4 +62,75 @@ footer {
     /* padding: 10px; */
     border-top: 3px solid #000;
     text-align: center;
+}
+
+/* 화면 너비 0 ~ 2440px */
+@media (max-width: 2440px) {
+    body {
+        font-size: 3.0em;
+    }
+
+    #main_header {
+        height: 90px;
+        line-height: 90px;
+    }
+}
+
+/* 화면 너비 0 ~ 1440px */
+@media (max-width: 1440px) {
+    body {
+        font-size: 2.5em;
+    }
+}
+
+/* 화면 너비 0 ~ 1024px */
+@media (max-width: 1024px) {
+    body {
+        font-size: 2.2em;
+    }
+}
+
+/* 화면 너비 0 ~ 960px */
+@media (max-width: 960px) {
+    body {
+        font-size: 2.0em;
+    }
+}
+
+/* 화면 너비 0 ~ 768px */
+@media (max-width: 768px) {
+    body {
+        font-size: 1.8em;
+    }
+
+    #main_header {
+        height: 50px;
+        line-height: 50px;
+    }
+}
+
+/* 화면 너비 0 ~ 600px */
+@media (max-width: 600px) {
+    body {
+        font-size: 1.6em;
+    }
+}
+
+/* 화면 너비 0 ~ 480px */
+@media (max-width: 480px) {
+    body {
+        font-size: 1.4em;
+    }
+}
+
+/* 화면 너비 0 ~ 320px */
+@media (max-width: 320px) {
+    body {
+        font-size: 1.2em;
+    }
+
+    #main_header>a>h1 {
+        color: white;
+        font-size: 1.4em;
+    }
 }
