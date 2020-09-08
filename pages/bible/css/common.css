@@ -28,6 +28,10 @@ footer {
     display: block;
 }
 
+address {
+    font-style: normal;
+}
+
 /* 헤더 */
 #main_header {
     height: 45px;
