@@ -19,9 +19,9 @@ var before = new Date('December 31, 2020');
 // 출력합니다.
 // alert(`올해 남은 일수 : ${now.getInterval(before)}일`);
 
-window.onload = function() {        
+// window.onload = function() {        
     var thisYear = document.getElementById("thisYear");
     thisYear.innerHTML = `올해 일 수 : ${now.getInterval(before)}일`;
-};
+// };
 
 

@@ -152,6 +152,11 @@ img {
     border: 3px solid black;
 }
 
+/* 움직이는 텍스트 */
+#move_text {
+    position: absolute;
+}
+
 #graph_1:hover>.bar {
     width: 490px;
     color: white;
