@@ -456,11 +456,11 @@ footer>a.instar:hover {
 }
 
 #container #menu3:after {
-    content: "Rule";
+    content: "Notice";
 }
 
 #container #menu4:after {
-    content: "Contact Us";
+    content: "Contact";
 }
 
 #container .content .conbox:before {
@@ -629,25 +629,25 @@ footer>a.instar:hover {
 .text_box:nth-last-child(1):before {
     content: "";
     display: block;
-    width: 150px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     position: absolute;
     left: 0;
-    top: 70px;
-    background: url(../images/content_img2.png) no-repeat right top;
-    background-size: 150px;
+    top: 100px;
+    background: url(../images/content_img2.jpg) no-repeat right top;
+    background-size: 300px;
 }
 
 .text_box:nth-last-child(1):after {
     content: "";
     display: block;
-    width: 170px;
-    height: 280px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     right: 0;
-    top: -20px;
-    background: url(../images/content_img3.png) no-repeat right top;
-    background-size: 170px;
+    top: 100px;
+    background: url(../images/content_img3.jpg) no-repeat right top;
+    background-size: 200px;
 }
 
 .text_box:nth-last-child(1) p {
@@ -658,7 +658,7 @@ footer>a.instar:hover {
     color: #ed3140;
 }
 
-/*도서소개 페이지 만들기*/
+/*선수 소개 페이지 만들기*/
 #menu2.content h3 {
     font-size: 0px;
 }
@@ -738,7 +738,7 @@ footer>a.instar:hover {
 .point_text strong {
     display: block;
     padding: 0 0 10px 46px;
-    background: url(../images/point_bg.png) no-repeat;
+    background: url(../images/point.png) no-repeat;
     background-size: 40px;
     font-size: 14px;
     font-weight: 700;
@@ -812,11 +812,11 @@ footer>a.instar:hover {
     content: "";
     display: block;
     position: absolute;
-    width: 120px;
-    height: 150px;
-    background: url(../images/faq_boy.png) no-repeat;
+    width: 200px;
+    height: 200px;
+    background: url(../images/notice.png) no-repeat;
     right: 0px;
-    top: 36px;
+    top: 0px;
 }
 
 .accordio_box {
@@ -866,22 +866,20 @@ footer>a.instar:hover {
 }
 
 .accordio_box ol li:nth-of-type(1) p {
-    background-image: url(../images/board_boy.png);
-    background-position: 40px -1px;
+    background-image: url(../images/married.jpg);
+    background-size: 120px;
+    background-position: 40px 30px;
 }
 
 .accordio_box ol li:nth-of-type(2) p {
-    background-image: url(../images/read_boy.png);
-    background-position: 40px 20px;
+    background-image: url(../images/get_together.jpg);
+    background-size: 80px;
+    background-position: 40px 10px;
 }
 
 .accordio_box ol li:nth-of-type(3) p {
-    background-image: url(../images/shopping_boy.png);
-    background-position: 40px 13px;
-}
-
-.accordio_box ol li:nth-of-type(4) p {
-    background-image: url(../images/meeting_boy.png);
+    background-image: url(../images/manager.jpg);
+    background-size: 150px;
     background-position: 40px 13px;
 }
 
@@ -901,11 +899,11 @@ footer>a.instar:hover {
     color: #ea657b;
 }
 
-.formlist {
+/* .formlist {
     padding-bottom: 150px;
-    background: url(../images/contact_bg.png) no-repeat right bottom;
+    background: url(../images/contact.jpg) no-repeat right bottom;
     background-size: 200px;
-}
+} */
 
 .formlist ul li {
     margin-bottom: 15px;
@@ -981,7 +979,8 @@ footer>a.instar:hover {
     margin: 10% auto;
     padding: 20px;
     border-radius: 5px;
-    background: url(../images/contact_pop.jpg) no-repeat #fff right bottom;
+    /* background: url(../images/contact.jpg) no-repeat #fff right bottom; */
+    background-color: #fff;
     background-size: 240px;
     color: #3c4147;
 }
