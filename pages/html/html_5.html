@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>로컬 크롬 브라우저에 Ajax 하는 설정</title>
+    <link rel="stylesheet" href="css/html_1.css">
+</head>
+
+<body>
+    <ul id="listBox">
+        <li>
+            <strong>로컬 크롬 브라우저에 Ajax 하는 설정</strong>
+            <hr>
+            <p>
+                그래프 : d3.js, raphael.js<br>
+                knockout 라이브러리 mvvc<br>
+                linear-gradient css<br>
+                a download<br>
+                Two Brain<br>
+                a download<br><br><br>
+                로컬 환경에서 Ajax를 확인하기 위한 준비 작업
+                크롬 아이콘 > 속성 > 바로 가기 탭 > 대상(T) 에서
+                맨 마지막 위치에 한 칸 띄고 --allow-file-access-from-files 추가
+            </p>            
+        </li>        
+        <li>
+            <strong>댓글</strong>
+            <!-- 라이브리 시티 설치 코드 -->
+            <div id="lv-container" data-id="city" data-uid="MTAyMC81MTM3OS8yNzg2MA==">
+                <script type="text/javascript">
+                    (function (d, s) {
+                        var j, e = d.getElementsByTagName(s)[0];
+
+                        if (typeof LivereTower === 'function') {
+                            return;
+                        }
+
+                        j = d.createElement(s);
+                        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                        j.async = true;
+
+                        e.parentNode.insertBefore(j, e);
+                    })(document, 'script');
+                </script>
+                <noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+            </div>
+            <!-- 시티 설치 코드 끝 -->
+        </li>
+    </ul>
+</body>
+
+</html>

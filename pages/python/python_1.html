@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>내부, 외부 여백</title>
+    <link rel="stylesheet" href="css/css_1.css">
+</head>
+
+<body>
+    <ul id="listBox">
+        <li>
+            <strong>내부, 외부 여백</strong>
+            <hr>
+            <p>padding 테두리 안쪽 내부 여백.</p>
+            <p>margin 외부 여백.</p>
+            <p>margin: 50px; // 상하좌우의 여백이 동일.</p>
+            <p>margin: 50px 35px 20px 0px; // 각각 다른 경우 top부터 시계방향으로 회전해서 한칸씩 띄워쓰기.</p>
+            <p>margin: 50px 20px; // 수직과 수평이 동일한 경우 수직을 먼저 작성함.</p>            
+        </li>        
+        <li>
+            <strong>블록 엘리먼트를 브라우저의 중앙에 위치시키는 방법</strong>
+            <hr>
+            <p>블록 엘리먼트를 브라우저의 중앙에 위치시키는 방법</p>
+            <p>가로크기를 고정하고 수평방향 margin을 auto로 설정. *수직은 auto 없다</p>
+            <code>
+                #animal { <mark>margin: 30px auto;</mark> }
+            </code>
+        </li>        
+        <li>
+            <strong>댓글</strong>
+            <!-- 라이브리 시티 설치 코드 -->
+            <div id="lv-container" data-id="city" data-uid="MTAyMC81MTM3OS8yNzg2MA==">
+                <script type="text/javascript">
+                    (function (d, s) {
+                        var j, e = d.getElementsByTagName(s)[0];
+
+                        if (typeof LivereTower === 'function') {
+                            return;
+                        }
+
+                        j = d.createElement(s);
+                        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                        j.async = true;
+
+                        e.parentNode.insertBefore(j, e);
+                    })(document, 'script');
+                </script>
+                <noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+            </div>
+            <!-- 시티 설치 코드 끝 -->
+        </li>
+    </ul>
+</body>
+
+</html>
