@@ -21,7 +21,7 @@ var before = new Date('December 31, 2020');
 
 // window.onload = function() {        
     var thisYear = document.getElementById("thisYear");
-    thisYear.innerHTML = `올해 일 수 : ${now.getInterval(before)}일`;
+    thisYear.innerHTML = `2020년은 <b>${now.getInterval(before)}일</b> 남았다`;
 // };
 
 
