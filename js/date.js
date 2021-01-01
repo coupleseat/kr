@@ -14,14 +14,14 @@ Date.prototype.getInterval = function (otherDate) {
 
 // 변수를 선언합니다.
 var now = new Date();
-var before = new Date('December 31, 2020');
+var before = new Date('December 31, 2021');
 
 // 출력합니다.
 // alert(`올해 남은 일수 : ${now.getInterval(before)}일`);
 
 // window.onload = function() {        
     var thisYear = document.getElementById("thisYear");
-    thisYear.innerHTML = `2020년은 <b>${now.getInterval(before)}일</b> 남았다`;
+    thisYear.innerHTML = `2021년 12월 31일까지 <b>${now.getInterval(before) + 1}일</b> 남았다`;
 // };
 
 
